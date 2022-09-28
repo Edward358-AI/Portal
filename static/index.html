@@ -30,7 +30,7 @@
 }
 
 * {
-    font-family: Roboto;
+    font-family: monospace;
 }
 
 body {
@@ -76,9 +76,10 @@ footer {
     align-self: center;
     height: 80px;
     display: flex;
-    justify-content: left;
     align-items: center;
+  justify-content: center;
   color: #FFF;
+  text-align: center;
 }
 
 footer a,
@@ -105,25 +106,31 @@ form {
 .desc {
     display: flex;
     justify-content: center;
+    text-align:center;
 }
 
 .desc p {
-    width: 560px;
-    color: rgba(253, 253, 253, 0.514);
+    font-size: 18px;
+   color:cyan;
 }
+
+.desc span {
+  font-size: 18px;
+}
+    
 
 form input {
     background: none;
     font-family: inherit;
-    padding: 0px 17px;
-    height: 48px;
+    height: 35px;
     border: 1px solid rgb(255, 255, 255, .2);
-    color: var(--text-color);
-    border-radius: 3px;
+    color: lightblue;
     outline: none;
-    width: 350px;
-    margin-top: 0px;
-    border-radius: 50px;
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    text-align: center;
     color: #FFF;
 }
 form input:hover{
@@ -141,10 +148,6 @@ form input:focus {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-.desc footer{
-  text-align:center;
-}
-
 </style>
 
 <div class="logo-wrapper">
@@ -157,20 +160,21 @@ form input:focus {
      
    </div> 
     <div  class="desc">
-        <p class="desc">The Portal to a free internet</p>
+        <p class="desc">A&nbsp;<span style="color:red">P</span><span style="color:green">o</span><span style="color:blue">r</span><span style="color:orange">t</span><span style="color:yellow">a</span><span style="color:purple">l</span>&nbsp;to the unblocked web</p>
     </div>
   
     <form>
-        <input placeholder="Search the web freely">
+        <input placeholder="Enter the portal to freedom">
     </form>
 
     <footer>
-Made by MADSCIENTIST90 and bobthegreat31010
+<p>Made by MADSCIENTIST90 and bobthegreat31010</p><br>
 
+<p>Maintained by MyohTheGod and MADSCIENTIST90</p>
     </footer>
-    <script src="uv/uv.bundle.js"></script>
-    <script src="uv/uv.config.js"></script>
-    <script src="index.js"></script>
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="index.js" defer></script>
 
 
 
